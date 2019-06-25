@@ -2,20 +2,16 @@
 
 ## Objective
 
-This workshop will walk you through some of the fundamental early stages of the Data Science / ML workflow. We will be exploring different aspects of data understanding, visualization and processing. By the end of these labs/tutorials, you should understand:
+This workshop will walk you through model development stages of the Data Science / ML workflow. We will be exploring different ways to build deep learning models and deploying those models. By the end of these labs/tutorials, you should understand:
 
-- The use of Jupyter Notebooks in IBM Watson Studio
-- How to load data sets with open source libraries
-- How to visualize data sets through code and no-code options
-- How to process data sets
+- Developing Deep Learning Models in Watson Studio
+- The process of implementing hyper-parameter optimization of Deep Learning models
 
 ### Tools Used
 
 - Watson Studio [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)
 - Watson Machine Learning [(docs)](https://developer.ibm.com/clouddataservices/docs/ibm-watson-machine-learning/get-started/)
 - [Jupyter Notebooks](http://jupyter.org/)
-- [Scikit Learn](https://scikit-learn.org/)
-- Several Python Libraries: Pandas, Seaborn, Matplotlib, [PixieDust](https://github.com/pixiedust/pixiedust)
 
 ## Requirements
 
@@ -24,8 +20,6 @@ This workshop will walk you through some of the fundamental early stages of the 
 ***
 
 ## Workshop Flow
-
-Most of these labs are written in python and using Jupyter Notebooks. One of the most common python libraries used for data analysis and manipulation is [pandas](https://pandas.pydata.org/), which is used throughout the labs. For a quick tutorial around pandas, feel free to run through the material found here - [IBMDeveloperUK pandas-workshop](https://github.com/IBMDeveloperUK/pandas-workshop).
 
 ### Prerequisites
 
@@ -45,19 +39,20 @@ Most of these labs are written in python and using Jupyter Notebooks. One of the
 
 ### Lab 1 - Building A Deep Learning Model Using Code
 
-Lab 1
+This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. You will be building a Deep Learning model in a Jupyter Notebook using Keras on timeseries data. Then deploy and consume the trained Deep Learning model as an API on the Watson Machine Learning Service.
+
+[Follow the lab instructions here](https://github.com/ibm-ai-education/timeseries-rnn-lab-part1)
 
 ### Lab 2 - Building A Deep Learning Model Using Visual Assembly
 
-Lab 2
+The second lab builds on the RNN model built in lab 1, but focuses on finding a better performing model. In a real workflow, lots of time and resources would be spent tweaking the model to find the optimal set of parametes for the model. Lab 2 demonstrates how we can improve this hyperparameter optimization, process by defining and submitting experiments as Python code for training multiple models in parallel.
 
-### Lab 3 - Running an Experiment
+[Follow the lab instructions here](https://github.com/jrtorres/timeseries-rnn-lab-part2)
 
-Lab 3
+### Lab 3 - Building A Deep Learning Model Using Visual Assembly
 
-### [Optional] Lab 4 - NeuNetS
+Now that we've built deep learning models and run some experiments, lets look at a different approach to building these DL models. In this case we will explore how to build models using a visual assembly tool called Neural Network Modeler.
 
-Lab 4
 
 ## General Links
 
