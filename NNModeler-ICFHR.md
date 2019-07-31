@@ -62,7 +62,7 @@ It is assumed you have your environment set up with either lite or payed version
 
     ![](docs/images/ss10.png)
 
-1. Give the new flow a name, for example `NNModeler-flow`, 
+1. Give the new flow a name, for example `fraudcnn`, 
     - Select the `Nueral Network Modeler` radio button and 
     - click the **`Create`** button.
 
