@@ -31,13 +31,13 @@ The instructions were adapted from the more comprehensive tutorial found here - 
     ![Name Project](docs/images/ss9a.png)
 
 1. Next we have to associate a Watson Machine Learning service to the project. 
-    - Click on `Settings` on the top banner of the project, 
+    - Click on `Settings` tab on the top banner of the project, 
     - then `Add Service` under `Associate Services` and 
     - finally, select `Watson` to add a Watson service to the project.
 
     ![Associate Service Settings](docs/images/settings.png)
 
-1. Select `Machine Learning` from the list of available Watson Services.
+1. Select `Add` link in the `Machine Learning` tile from the list of available Watson Services.
 
     ![Add Associated Service](docs/images/add-associated-service.png)
 
@@ -59,11 +59,16 @@ The instructions were adapted from the more comprehensive tutorial found here - 
 
 1. You’ll drop into the Modeler Canvas. This is where you’ll build your Neural Network graphically instead of using code.The panel on the left is a palette of all the nodes you can use in your model building, which you can drag and drop onto the main canvas.
 
-1. First we have to add the input to our network. Select `Image Data` from the Input section of the palette and Drag / drop the node on to the canvas. Then double-click the new node to modify its properties (properties for nodes show up as a panel on the right side of the screen) 
+1. First we add the input to our network. 
+    - Select `Image Data` from the `Input` section of the palette and Drag / drop the node on to the canvas. 
+    - Then double-click the new node to modify its properties (properties for nodes show up as a panel on the right side of the screen) 
 
     ![](docs/images/ss12.png)
 
-1. To add our input data, we have to create a new connection to your Object Storage instance (COS) where our data resides. Click the `Create a New Connection` option under the Data sction, or select a connection if one already exists. You will then be able to choose the bucket that contains your train / test /validation data assets, and then choose the `training_data.pickle` file as the Training data file, `test_data.pickle` as the Test data file and `validation_data.pickle` as the Validation data file.
+1. To add our input data, we have to create a new connection to your Object Storage instance (COS) where our data resides. 
+    - Click the `Create a New Connection` option under the Data sction, or select a connection if one already exists. 
+    - You will then be able to choose the bucket that contains your train / test /validation data assets, 
+    - and then choose the `training_data.pickle` file as the Training data file, `test_data.pickle` as the Test data file and `validation_data.pickle` as the Validation data file.
 
     ![](docs/images/ss13.png)
 
