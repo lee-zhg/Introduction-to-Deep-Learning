@@ -14,7 +14,7 @@ The instructions were adapted from the more comprehensive tutorial found here - 
 
 ### Prerequisites
 
-- It is assumed you have your environment set up with either lite or payed versions of Watson Studio and Watson Machine Learning. If not, contact the lab instructor or set up your own lite instances as detailed in the [Setup Environment readme](EnvironmentSetup.md)
+- It is assumed you have your environment set up with either lite or payed versions of Watson Studio and Watson Machine Learning. If not, contact the lab instructor or set up your own lite instances as detailed in the [Setup Environment readme](SetupWatsonStudio.md)
 
 ## Step 1: Setup Project and Data
 
