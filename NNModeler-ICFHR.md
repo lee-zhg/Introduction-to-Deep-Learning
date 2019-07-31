@@ -49,11 +49,17 @@ The instructions were adapted from the more comprehensive tutorial found here - 
 
 ## Step 2: Create Modeler Flow
 
+> To avoid potential browser cache problem, it's recommended to use Chrome browser in `Incognito` mode. Otherwise, you may encounter `502 Bad Gateway` error.
+
+![Run Chrome browser in `Incognito` mode](docs/images/incognito.png)
+
 1. From your main project page, Click the **`Add to project`** button and select the `Modeler Flow` option.
 
     ![](docs/images/ss10.png)
 
-1. Give the new flow a name, Select the `Nueral Network Modeler` radio button and click the **`Create`** button.
+1. Give the new flow a name, for example `NNModeler-flow`, 
+    - Select the `Nueral Network Modeler` radio button and 
+    - click the **`Create`** button.
 
     ![](docs/images/ss11.png)
 
