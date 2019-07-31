@@ -28,7 +28,7 @@ This workshop will walk you through model development stages of the Data Science
    If you have GIT on your machine, clone this repository locally. Open a terminal and run:
 
    ```
-   $ git clone https://github.com/jrtorres/dsai-workshop-machinelearning.git
+   $ git clone https://github.com/lee-zhg/Introduction-to-Deep-Learning.git
    ```
 
    If you do NOT have GIT on your machine, you can just download the repository as a ZIP file. In the browser window, select :
