@@ -20,17 +20,20 @@ The instructions were adapted from the more comprehensive tutorial found here - 
 
 1. Open Watson Studio by logging in at [https://dataplatform.ibm.com](https://dataplatform.ibm.com)
 
-1. From the dashboard page, Click the **`Get started`** drop down menu on the top right of the page and then Click on the **`Create a project`** option to create a new project on Watson Studio.
+1. From the dashboard page, Click on the **`Create a project`** tile to create a new project in Watson Studio.
 
     ![Create Project](docs/images/ss8a.png)
 
-1. Select `Standard` as the type of project to create.
+1. Select `Create an empty project` as the type of project to create.
 
-1. Give your project a name and click **`Create`** on the bottom right.
+1. Give your project a name, for example `NNModeler`, and click **`Create`** on the bottom right.
 
     ![Name Project](docs/images/ss9a.png)
 
-1. Next we have to associate a Watson Machine Learning service to the project. Click on `Settings` on the top banner of the project, then `Add Service` under `Associate Services` and finally, select `Watson` to add a Watson service to the project.
+1. Next we have to associate a Watson Machine Learning service to the project. 
+    - Click on `Settings` on the top banner of the project, 
+    - then `Add Service` under `Associate Services` and 
+    - finally, select `Watson` to add a Watson service to the project.
 
     ![Associate Service Settings](docs/images/settings.png)
 
