@@ -37,6 +37,29 @@ This workshop will walk you through model development stages of the Data Science
 
 1. Ensure you have access to a Waston Studio Instance. If you need to provision an instance, see the instructions in the [Setup Watson Studio doc](SetupWatsonStudio.md)
 
+1.  Upload data to IBM Cloud Object Storage
+
+    To upload data,
+
+    - Login to https://cloud.ibm.com
+    - Expand `Storage` under the `Resource Summary`.
+    - Select your storage instance.
+    - Click `Create bucket` button.
+    - Name your bucket, for example `mybucket-xyz`. The name must be unique
+    - Select `Cross Region` for `Resilency`.
+    - Select a `Location`, for example `us-geo`.
+    - Click the `Create bucket`.
+    - Click `Upload` and then select `File`.
+    - Select `Standard Upload`.
+    - Click `Select files`.
+    - Navigate to the folder where you download and store this repository.
+    - Select file
+        - training_data.pickle
+        - test_data.pickle
+        - validation_data.pickle
+    - Click `Upload`.
+
+
 ### Lab 1 - Building A Deep Learning Model Using Code
 
 This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. You will be building a Deep Learning model in a Jupyter Notebook using Keras on timeseries data. Then deploy and consume the trained Deep Learning model as an API on the Watson Machine Learning Service.
