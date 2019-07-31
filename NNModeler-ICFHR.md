@@ -21,6 +21,10 @@ It is assumed you have your environment set up with either lite or payed version
 
 ## Step 1: Setup Project and Data
 
+0. To avoid potential browser cache problem, it's recommended to use Chrome browser in `Incognito` mode during the exercise. Otherwise, you may encounter `502 Bad Gateway` error.
+
+![Run Chrome browser in `Incognito` mode](docs/images/incognito.png)
+
 1. Open Watson Studio by logging in at [https://dataplatform.ibm.com](https://dataplatform.ibm.com)
 
 1. From the dashboard page, Click on the **`Create a project`** tile to create a new project in Watson Studio.
@@ -47,14 +51,12 @@ It is assumed you have your environment set up with either lite or payed version
 1. Click on the `Existing` tab and select the name of your Machine Learning service instance.
 
     ![Add Existing ML Service](docs/images/choose-ml-service.png)
-  
+
+1. Click `Select`.
+
 1. The Watson Machine Learning service is now listed as one of your `Associated Services`.
 
 ## Step 2: Create Modeler Flow
-
-> **Note**, To avoid potential browser cache problem, it's recommended to use Chrome browser in `Incognito` mode. Otherwise, you may encounter `502 Bad Gateway` error.
-
-![Run Chrome browser in `Incognito` mode](docs/images/incognito.png)
 
 1. From your main project page, Click the **`Add to project`** button and select the `Modeler Flow` option.
 
@@ -76,7 +78,7 @@ It is assumed you have your environment set up with either lite or payed version
     ![](docs/images/ss12.png)
 
 1. To add our input data, we have to create a new connection to your Object Storage instance (COS) where our data resides. 
-    - Click the `Create a New Connection` option under the `Data` sction, or select a connection if one already exists. 
+    - Click the `Create a connection` option under the `Data` sction, or select a connection if one already exists. 
     - You will then be able to choose the bucket that contains your `train / test / validation` data assets 
     - Select 
         - `training_data.pickle` file as the `Training data file`, 
@@ -100,7 +102,7 @@ It is assumed you have your environment set up with either lite or payed version
 
     ![](docs/images/ss15.png)
 
-1. Double click on the first conv2d node and set the following parameters as shown in the two screenshot below.
+1. Double click on the first `Conv2D` node and set the following parameters as shown in the two screenshot below.
 
     - Set the number of filters (number of feature maps) to 32, these filters will be 3x3 moving with a stride of 1. 
     - Set the learning rate multiple (value to modify learning rate for each layer) and decay multipler (value to modify decay rate for each layer) for both the weight and bias to 10 and 1 respectively.
@@ -147,7 +149,8 @@ It is assumed you have your environment set up with either lite or payed version
 1. We now start to flatten our dimensions and add a fully connected network to start getting to our desired output. 
     - Drag and drop a `Flatten` node from `Core` section
     - Drag and drop a `Dense` node from Core section in the left sidebar
-    - Connect them together and set the dense layer to 128 nodes (leave other parameters as default)
+    - Connect them together and 
+    - Set the dense layer to 128 nodes (leave other parameters as default)
     - `Close`
 
     ![](docs/images/ss21.png)
@@ -160,8 +163,8 @@ It is assumed you have your environment set up with either lite or payed version
 
     ![](docs/images/ss22.png)
 
-1. To complete the network, we add an activation layer at the end of our architecture. 
-    - Drag and drop a `Softmax` node to the canvas 
+1. To complete the network, we add an `activation` layer at the end of our architecture. 
+    - Drag and drop a `Softmax` node from the `Activation` section to the canvas 
     - Connect it to final Dense node
     - Softmax node will return an output in the range of [0, 1] to represent true and false values for each node in the final layer.
     - `Close`
@@ -192,7 +195,7 @@ It is assumed you have your environment set up with either lite or payed version
 
     ![](docs/images/ss26.png)
 
-1. Give the model a name and ensure you machine learning service is detected, then click the `Publish` button
+1. Give the model a name and ensure you machine learning service is detected, for exaple `NNModeler-flow`, then click the `Publish` button
 
     ![](docs/images/ss27.png)
 

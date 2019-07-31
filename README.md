@@ -42,7 +42,7 @@ This workshop will walk you through model development stages of the Data Science
     To upload data,
 
     - Login to https://cloud.ibm.com
-    - Expand `Storage` under the `Resource Summary`.
+    - Expand `Storage` under the `Resource Summary`. Create a new instance if you don't have any.
     - Select your storage instance.
     - Click `Create bucket` button.
     - Name your bucket, for example `mybucket-xyz`. The name must be unique
