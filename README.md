@@ -41,7 +41,7 @@ This workshop will walk you through model development stages of the Data Science
 
 This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. You will be building a Deep Learning model in a Jupyter Notebook using Keras on timeseries data. Then deploy and consume the trained Deep Learning model as an API on the Watson Machine Learning Service.
 
-[Follow the lab instructions here](https://github.com/ibm-ai-education/timeseries-rnn-lab-part1)
+[Follow the lab instructions here](https://github.com/lee-zhg/timeseries-rnn-lab-part1)
 
 ### Lab 2 - Building A Deep Learning Model Using Visual Assembly
 
@@ -53,7 +53,7 @@ Now that we've built deep learning models and run some experiments, lets look at
 
 The second lab builds on the RNN model built in lab 1, but focuses on finding a better performing model. In a real workflow, lots of time and resources would be spent tweaking the model to find the optimal set of parametes for the model. Lab 2 demonstrates how we can improve this hyperparameter optimization, process by defining and submitting experiments as Python code for training multiple models in parallel.
 
-[Follow the lab instructions here](https://github.com/jrtorres/timeseries-rnn-lab-part2)
+[Follow the lab instructions here](https://github.com/lee-zhg/timeseries-rnn-lab-part2)
 
 ## General Links
 
