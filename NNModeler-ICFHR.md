@@ -18,6 +18,27 @@ The instructions were adapted from the more comprehensive tutorial found here - 
 
 It is assumed you have your environment set up with either lite or payed versions of Watson Studio and Watson Machine Learning. If not, contact the lab instructor or set up your own lite instances as detailed in the [Setup Environment readme](SetupWatsonStudio.md)
 
+1.  Upload data to IBM Cloud Object Storage
+
+    If you have not upload sample data files `training_data.pickle`, `test_data.pickle` and `validation_data.pickle`, complete the steps below.
+
+    - Login to https://cloud.ibm.com
+    - Expand `Storage` under the `Resource Summary`. Create a new instance if you don't have any.
+    - Select your storage instance.
+    - Click `Create bucket` button.
+    - Name your bucket, for example `mybucket-xyz`. The name must be unique
+    - Select `Cross Region` for `Resilency`.
+    - Select a `Location`, for example `us-geo`.
+    - Click the `Create bucket`.
+    - Click `Upload` and then select `File`.
+    - Select `Standard Upload`.
+    - Click `Select files`.
+    - Navigate to the folder where you download and store this repository.
+    - Select file
+        - training_data.pickle
+        - test_data.pickle
+        - validation_data.pickle
+    - Click `Upload`.
 
 ## Step 1: Setup Project and Data
 
