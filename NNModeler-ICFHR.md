@@ -18,7 +18,7 @@ The instructions were adapted from the more comprehensive tutorial found here - 
 
 It is assumed you have your environment set up with either lite or payed versions of Watson Studio and Watson Machine Learning. If not, contact the lab instructor or set up your own lite instances as detailed in the [Setup Environment readme](SetupWatsonStudio.md)
 
-1.  Upload data to IBM Cloud Object Storage
+2.  Upload data to IBM Cloud Object Storage
 
     If you have not upload sample data files `training_data.pickle`, `test_data.pickle` and `validation_data.pickle`, complete the steps below.
 
