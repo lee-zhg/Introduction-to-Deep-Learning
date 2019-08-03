@@ -99,7 +99,7 @@ It is assumed you have your environment set up with either lite or payed version
     ![](docs/images/ss12.png)
 
 1. To add our input data, we have to create a new connection to your Object Storage instance (COS) where our data resides. 
-    - Click the `Create a connection` option under the `Data` sction, or select a connection if one already exists. 
+    - Click the `Create a connection` option under the `Data` section, or select a connection if one already exists. 
     - You will then be able to choose the bucket that contains your `train / test / validation` data assets 
     - Select 
         - `training_data.pickle` file as the `Training data file`, 
