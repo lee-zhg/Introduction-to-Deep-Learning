@@ -7,19 +7,20 @@ This workshop will walk you through model development stages of the Data Science
 - Developing Deep Learning Models in Watson Studio
 - The process of implementing hyper-parameter optimization of Deep Learning models
 
+The instructions were adapted from https://github.com/jrtorres/dsai-workshop-deeplearning.
+
+
 ### Tools Used
 
 - Watson Studio [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)
 - Watson Machine Learning [(docs)](https://developer.ibm.com/clouddataservices/docs/ibm-watson-machine-learning/get-started/)
 - [Jupyter Notebooks](http://jupyter.org/)
 
+
 ## Requirements
 
 - [IBM Cloud Account](https://cloud.ibm.com)
 
-***
-
-## Workshop Flow
 
 ### Prerequisites
 
@@ -66,17 +67,20 @@ This lab begins by introducing you to Deep Learning through a Jupyter notebook e
 
 [Follow the lab instructions here](https://github.com/lee-zhg/timeseries-rnn-lab-part1)
 
+
 ### Lab 2 - Use Experiments to find best parameters
 
 The second lab builds on the RNN model built in lab 1, but focuses on finding a better performing model. In a real workflow, lots of time and resources would be spent tweaking the model to find the optimal set of parametes for the model. Lab 2 demonstrates how we can improve this hyperparameter optimization, process by defining and submitting experiments as Python code for training multiple models in parallel.
 
 [Follow the lab instructions here](https://github.com/lee-zhg/timeseries-rnn-lab-part2)
 
+
 ### Lab 3 - Building A Deep Learning Model Using Visual Assembly
 
 Now that we've built deep learning models and run some experiments, lets look at a different approach to building these DL models. In this case we will explore how to build models using a visual assembly tool called Neural Network Modeler.
 
 [Follow the instructions here](NNModeler-ICFHR.md)
+
 
 ## General Links
 
