@@ -43,8 +43,14 @@ The instructions were adapted from https://github.com/jrtorres/dsai-workshop-dee
     To upload data,
 
     - Login to https://cloud.ibm.com
-    - Expand `Storage` under the `Resource Summary`. Create a new instance if you don't have any.
-    - Select your storage instance.
+    - If you already have a `Storage` section under the `Resource Summary`,
+        - Expand `Storage` under the `Resource Summary`. Create a new instance if you don't have any.
+        - Select your storage instance.
+    - If you don't have a `Storage` section under the `Resource Summary`,
+        - Select `Catalog`.
+        - Select `Storage` on the left and then `Object Storage` on the right.
+        - Assign a `Service name` and take the default for the rest fields.
+        - `Create`.
     - Click `Create bucket` button.
     - Name your bucket, for example `mybucket-xyz`. The name must be unique
     - Select `Cross Region` for `Resilency`.
