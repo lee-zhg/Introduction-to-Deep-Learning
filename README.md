@@ -52,10 +52,12 @@ The instructions were adapted from https://github.com/jrtorres/dsai-workshop-dee
         - Assign a `Service name` and take the default for the rest fields.
         - `Create`.
     - Click `Create bucket` button.
+    - Select `Customize bucket` tile.
     - Name your bucket, for example `mybucket-xyz`. The name must be unique
     - Select `Cross Region` for `Resilency`.
-    - Select a `Location`, for example `us-geo`.
-    - Click the `Create bucket`.
+    - Select `us-geo` for `Location`.
+    - Accept all other defaults.
+    - Click the `Create bucket` button.
     - Click `Upload` and then select `File`.
     - Select `Standard Upload`.
     - Click `Select files`.
