@@ -62,6 +62,7 @@ The instructions were adapted from https://github.com/jrtorres/dsai-workshop-dee
     - Select `Standard Upload`.
     - Click `Select files`.
     - Navigate to the folder where you download and store this repository.
+    - Move to the `data` subfolder.
     - Select file
         - training_data.pickle
         - test_data.pickle
